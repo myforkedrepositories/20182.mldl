@@ -16,6 +16,7 @@ https://colab.research.google.com/github
 Para tener todo el repositorio a disposición, dentro del notebook use:
 ```
 import os
+# Check if Colaboratory is running
 if os.getcwd()=='/content':
     ! git clone https://github.com/myforkedrepositories/20182.mldl.git
     os.chdir('/content/20182.mldl')
