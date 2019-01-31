@@ -15,11 +15,10 @@ https://colab.research.google.com/github
 ```
 Para tener todo el repositorio a disposición, dentro del notebook use:
 ```
-! git clone https://github.com/myforkedrepositories/20182.mldl.git > /dev/null
-```
-y cambie al directorio de trebajo
-```
-cd 20182.mldl/
-```
+import os
+if os.getcwd()=='/content':
+    ! git clone https://github.com/myforkedrepositories/20182.mldl.git
+    os.chdir('/content/20182.mldl')
+````
 
 
